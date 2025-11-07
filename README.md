@@ -60,26 +60,26 @@ Bash
 docker-compose up -d
 
 
-#Executar a API (OrderApi)
+### 2. Executar a API (OrderApi)
 Abra um novo terminal e execute os comandos abaixo. A API é responsável por aplicar as migrações no banco de dados.
 
-# Entre na pasta da API
+## Entre na pasta da API
 cd DeliverySystem.OrderApi
 
-# (Opcional) Aplique as migrações manualmente (a API também faz isso)
+## (Opcional) Aplique as migrações manualmente (a API também faz isso)
 dotnet ef database update
 
-# Execute a API
+## Execute a API
 dotnet run
 A API estará rodando e disponível em http://localhost:5xxx e https://localhost:7xxx.
 
-3. Executar o Processador (OrderProcessor)
+## 3. Executar o Processador (OrderProcessor)
 Abra um terceiro terminal para executar o worker que consome a fila.
 
-# Entre na pasta do Worker
+## Entre na pasta do Worker
 cd DeliverySystem.OrderProcessor
 
-# Execute o Worker
+## Execute o Worker
 dotnet run
 O worker irá se conectar ao RabbitMQ e aguardar por mensagens.
 
