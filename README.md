@@ -63,8 +63,6 @@ docker-compose up -d
 #Executar a API (OrderApi)
 Abra um novo terminal e execute os comandos abaixo. A API é responsável por aplicar as migrações no banco de dados.
 
-Bash
-
 # Entre na pasta da API
 cd DeliverySystem.OrderApi
 
@@ -77,8 +75,6 @@ A API estará rodando e disponível em http://localhost:5xxx e https://localhost
 
 3. Executar o Processador (OrderProcessor)
 Abra um terceiro terminal para executar o worker que consome a fila.
-
-Bash
 
 # Entre na pasta do Worker
 cd DeliverySystem.OrderProcessor
