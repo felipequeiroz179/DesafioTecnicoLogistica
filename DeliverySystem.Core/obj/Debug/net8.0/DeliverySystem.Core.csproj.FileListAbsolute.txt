@@ -1,0 +1,12 @@
+C:\Users\Felipe\Desktop\DesafioTecnicoLogistica\DeliverySystem.Core\bin\Debug\net8.0\DeliverySystem.Core.deps.json
+C:\Users\Felipe\Desktop\DesafioTecnicoLogistica\DeliverySystem.Core\bin\Debug\net8.0\DeliverySystem.Core.dll
+C:\Users\Felipe\Desktop\DesafioTecnicoLogistica\DeliverySystem.Core\bin\Debug\net8.0\DeliverySystem.Core.pdb
+C:\Users\Felipe\Desktop\DesafioTecnicoLogistica\DeliverySystem.Core\obj\Debug\net8.0\DeliverySystem.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Felipe\Desktop\DesafioTecnicoLogistica\DeliverySystem.Core\obj\Debug\net8.0\DeliverySystem.Core.AssemblyInfoInputs.cache
+C:\Users\Felipe\Desktop\DesafioTecnicoLogistica\DeliverySystem.Core\obj\Debug\net8.0\DeliverySystem.Core.AssemblyInfo.cs
+C:\Users\Felipe\Desktop\DesafioTecnicoLogistica\DeliverySystem.Core\obj\Debug\net8.0\DeliverySystem.Core.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\Desktop\DesafioTecnicoLogistica\DeliverySystem.Core\obj\Debug\net8.0\DeliverySystem.Core.dll
+C:\Users\Felipe\Desktop\DesafioTecnicoLogistica\DeliverySystem.Core\obj\Debug\net8.0\refint\DeliverySystem.Core.dll
+C:\Users\Felipe\Desktop\DesafioTecnicoLogistica\DeliverySystem.Core\obj\Debug\net8.0\DeliverySystem.Core.pdb
+C:\Users\Felipe\Desktop\DesafioTecnicoLogistica\DeliverySystem.Core\obj\Debug\net8.0\ref\DeliverySystem.Core.dll
+C:\Users\Felipe\Desktop\DesafioTecnicoLogistica\DeliverySystem.Core\obj\Debug\net8.0\DeliverySystem.Core.csproj.AssemblyReference.cache

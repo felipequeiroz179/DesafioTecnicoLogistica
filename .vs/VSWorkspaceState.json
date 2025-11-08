@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\DeliverySystem.Core",
+    "\\DeliverySystem.OrderApi",
+    "\\DeliverySystem.OrderApi\\Data",
+    "\\DeliverySystem.OrderApi\\Properties",
+    "\\DeliverySystem.OrderProcessor"
+  ],
+  "SelectedNode": "\\DeliverySystem.OrderApi\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}
