@@ -1,0 +1,25 @@
+# Dependency directories
+[Bb]in/
+[Oo]bj/
+
+# Docker
+.dockerignore
+docker-compose.yml.override
+
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+
+# Mac/Linux files
+.DS_Store
+*.swp
+
+# IDE files
+.idea/
+.vs/
+*.suo
