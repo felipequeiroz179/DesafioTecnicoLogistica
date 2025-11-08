@@ -70,9 +70,6 @@ Abra um novo terminal e execute os comandos abaixo. A API é responsável por ap
 ## Entre na pasta da API
 cd DeliverySystem.OrderApi
 
-## (Opcional) Aplique as migrações manualmente (a API também faz isso)
-dotnet ef database update
-
 ## Execute a API
 dotnet run
 
