@@ -87,4 +87,4 @@ cd DeliverySystem.OrderProcessor
 dotnet run
 
 O worker irá se conectar ao RabbitMQ e aguardar por mensagens.
-Você pode usar o Postman, Insomnia, ou cURL para testar.
+Você pode usar o Postman, Insomnia, Swagger ou cURL para testar.
