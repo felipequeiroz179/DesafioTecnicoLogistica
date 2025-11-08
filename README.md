@@ -75,6 +75,7 @@ dotnet ef database update
 
 ## Execute a API
 dotnet run
+
 A API estará rodando e disponível em http://localhost:5xxx e https://localhost:7xxx.
 
 ## 3. Executar o Processador (OrderProcessor)
@@ -88,3 +89,5 @@ dotnet run
 
 O worker irá se conectar ao RabbitMQ e aguardar por mensagens.
 Você pode usar o Postman, Insomnia, Swagger ou cURL para testar.
+
+Link do swagger: http://localhost:5222/swagger/index.html
