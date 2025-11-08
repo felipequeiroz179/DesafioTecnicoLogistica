@@ -22,6 +22,10 @@ A solução utiliza uma arquitetura de microsserviços desacoplada, composta por
 3.  **Processamento (Assíncrono):**
     `[OrderProcessor] -> (Consome Fila) -> (Transação) -> [DB: Orders (Update)] + [DB: OrderHistory] + [DB: OutboxEvents (Próximo)]`
 
+
+    <img width="1370" height="886" alt="image" src="https://github.com/user-attachments/assets/29462874-e647-400c-9db5-3c2e044794bc" />
+
+
 ## Estratégias de Consistência e Resiliência
 
 * **Consistência Total (Transactional Outbox Pattern):** A API garante que um pedido e seu respectivo evento sejam salvos na mesma transação de banco de dados (`Orders` + `OutboxEvents`). Um "Relay" em background na API é responsável por ler a tabela `OutboxEvents` e publicar no RabbitMQ, garantindo "pelo menos uma entrega" (at-least-once delivery) e que nenhum evento seja perdido, mesmo se a fila estiver offline.
