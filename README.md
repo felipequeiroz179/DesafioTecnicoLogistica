@@ -60,7 +60,7 @@ Siga os passos abaixo para executar o projeto localmente.
 
 No terminal, na raiz do projeto (`DesafioTecnicoLogistica/`), suba os contêineres:
 
-Bash
+
 docker-compose up -d
 
 
