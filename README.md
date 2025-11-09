@@ -51,8 +51,8 @@ A solução utiliza uma arquitetura de microsserviços desacoplada, composta por
 Siga os passos abaixo para executar o projeto localmente.
 
 **Pré-requisitos:**
-1.  [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
-2.  [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+1.  [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0) - * **certifique-se de ter os requisitos necessarios para instalar o software**
+2.  [Docker Desktop](https://www.docker.com/products/docker-desktop/) - * **certifique-se de ter os requisitos necessarios para instalar o software**
 
 ---
 
