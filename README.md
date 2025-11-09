@@ -75,7 +75,7 @@ Execute:
 dotnet add package Pomelo.EntityFrameworkCore.MySql
 
 
-Esse é o provedor Pomelo, o mais usado e estável para MySQL com Entity Framework Core.
+(Esse é o provedor Pomelo, o mais usado e estável para MySQL com Entity Framework Core.)
 
 ### 3. Instale também o pacote de design (necessário para migrations)
 
