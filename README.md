@@ -64,18 +64,59 @@ No terminal, na raiz do projeto (`DesafioTecnicoLogistica/`), suba os contêiner
 docker-compose up -d
 
 
-### 2. Executar a API (OrderApi)
-Abra um novo terminal e execute os comandos abaixo. A API é responsável por aplicar as migrações no banco de dados.
+Rode no CMD:
 
-## Entre na pasta da API
-cd DeliverySystem.OrderApi
+cd \DesafioTecnicoLogistica\DeliverySystem.Core\
 
-## Execute a API
+### 2. Instale o pacote do MySQL para o Entity Framework Core
+
+Execute:
+
+dotnet add package Pomelo.EntityFrameworkCore.MySql
+
+
+Esse é o provedor Pomelo, o mais usado e estável para MySQL com Entity Framework Core.
+
+### 3. Instale também o pacote de design (necessário para migrations)
+
+Ainda no mesmo projeto (DeliverySystem.Core):
+
+dotnet add package Microsoft.EntityFrameworkCore.Design
+
+### 4. Vá até o projeto de inicialização (onde tem o Program.cs)
+
+cd \DesafioTecnicoLogistica\DeliverySystem.OrderApi
+
+E instale o mesmo pacote Pomelo lá também (para garantir que o runtime ache as dependências):
+
+dotnet add package Pomelo.EntityFrameworkCore.MySql
+
+
+### 5. Volte até a raiz do projeto:
+
+cd \DesafioTecnicoLogistica\
+
+E execute:
+
+dotnet ef migrations add InitialCreate --project DeliverySystem.Core --startup-project DeliverySystem.OrderApi
+
+Caso não tenha o dotnet-ef execute o seguinte comando primeiro:
+
+dotnet tool install --global dotnet-ef
+
+
+### 6. Vá até o projeto de inicialização
+
+cd \DesafioTecnicoLogistica\DeliverySystem.OrderApi
+
+E execute o comando:
+
 dotnet run
+
 
 A API estará rodando e disponível em http://localhost:5xxx e https://localhost:7xxx.
 
-## 3. Executar o Processador (OrderProcessor)
+## 7. Executar o Processador (OrderProcessor)
 Abra um terceiro terminal para executar o worker que consome a fila.
 
 ## Entre na pasta do Worker
