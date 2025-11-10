@@ -1,3 +1,6 @@
+
+#Aviso: Baixe o projeto da master!
+
 # Desafio Técnico – Sistema de Processamento de Pedidos
 
 Este projeto implementa o back-end de um sistema de gerenciamento de entregas usando uma arquitetura orientada a eventos, com foco em consistência total de dados, resiliência e baixa latência.
@@ -117,7 +120,7 @@ dotnet run
 A API estará rodando e disponível em http://localhost:5xxx e https://localhost:7xxx.
 
 ## 7. Executar o Processador (OrderProcessor)
-Abra um terceiro terminal para executar o worker que consome a fila.
+Abra um segundo terminal terminal para executar o worker que consome a fila.
 
 ## Entre na pasta do Worker
 cd DeliverySystem.OrderProcessor
